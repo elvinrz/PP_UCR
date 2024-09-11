@@ -1,6 +1,6 @@
 all: omp_ex
 
-dp: omp_ex.cpp
+omp_ex: omp_ex.cpp
 	g++ -fopenmp omp_ex.cpp -o omp_ex
 
 clean:
